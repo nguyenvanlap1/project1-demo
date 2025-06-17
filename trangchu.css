@@ -4,7 +4,7 @@ html {
 
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 1;
     padding: 0;
 }
 
@@ -23,9 +23,9 @@ html {
     grid-area: header-cell;
     position: sticky;
     top: 0;
+    background-color: #CDDCD;
     z-index: 1000;
 }
-
 
 .page__footer {
 
