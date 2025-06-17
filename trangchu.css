@@ -23,7 +23,7 @@ html {
     grid-area: header-cell;
     position: sticky;
     top: 0;
-    background-color: #CDDCD;
+    background-color: #0077b7;
     z-index: 1000;
 }
 
