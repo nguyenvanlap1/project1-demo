@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link rel="icon" href="./asset/trangchu/logo.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./trangchu.css" />
+  </head>
+
+  <body class="page">
+    <!-- header -->
+    <header class="page__header">
+      <nav class="header__nav">
+        <a class="nav__logo" href="./trangchu.html">
+          <img src="/asset/trangchu/logo.png" alt="Logo" />
+          <p class="logo__title">Super nova</p>
+        </a>
+
+        <form action="/action_page.php" class="nav__search">
+          <button type="submit">
+            <i class="material-icons form__icon"> search</i>
+          </button>
+          <input
+            class="search__input"
+            type="search"
+            name="searchBox"
+            id="searchBox"
+            placeholder="Hôm nay bạn muốn tìm kiếm gì ?"
+          />
+        </form>
+
+        <div class="nav__control">
+          <a href="./dangnhap.html">
+            <i class="material-icons form__icon"> account_circle</i>
+            <span id="userName">Tài khoản</span>
+          </a>
+
+          <a href="./giohang.html">
+            <i class="material-icons form__icon"> shopping_cart</i>
+            <span>Giỏ hàng</span>
+            <p id="addCart"></p>
+          </a>
+
+          <a
+            href="javascript:void(0)"
+            class="control__menu"
+            onclick="myFunction()"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+
+      <nav class="header__menu" id="myTopnav">
+        <a href="#">
+          <i class="material-icons form__icon--menu">smartphone</i>
+          <span>Điện thoại</span>
+        </a>
+        <a href="#">
+          <i class="material-icons form__icon--menu">headset</i>
+          <span>Phụ kiện</span>
+        </a>
+        <a href="#">
+          <i class="material-icons form__icon--menu">sim_card</i>
+          <span>Sim, thẻ cào</span>
+        </a>
+        <a href="#">
+          <i class="material-icons form__icon--menu">miscellaneous_services</i>
+          <span>Dịch vụ, tiện ích</span>
+        </a>
+        <a href="#">
+          <i class="material-icons form__icon--menu">new_releases</i>
+          <span>Tin hót</span>
+        </a>
+        <a href="#">
+          <i class="material-icons form__icon--menu">autorenew</i>
+          <span>Máy cũ, thu cũ</span>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <div class="main-body">
+      <div class="head-banner">
+        <img src="/asset/trangchu/banner.png" alt="" />
+      </div>
+
+      <!-- thẻ column banner và menu -->
+      <div class="menu-tree">
+        <!-- danh sách hãng điện thoại -->
+        <div class="menu">
+          <ul>
+            <h4>Doanh mục sản phẩm</h4>
+            <li>IPHONE</li>
+            <li>SAMSUNG</li>
+            <li>OPPO</li>
+            <li>XIAOMI</li>
+            <li>VIVO</li>
+            <li>REALME</li>
+            <li>SONY</li>
+          </ul>
+        </div>
+        <!-- banner -->
+        <div class="banner">
+          <img
+            src="/asset/trangchu/hinh-anh-samsung-s25-va-s25-plus-1.jpg"
+            alt=""
+          />
+        </div>
+        <div class="product-info">
+          <img src="/asset/trangchu/m55-14-02.webp" alt="" />
+
+          <img src="/asset/trangchu/anhlaisuat.png" alt="" />
+
+          <img src="/asset/trangchu/image-155.jpeg" alt="" />
+        </div>
+      </div>
+      <div class="product">
+        <div class="slider_container">
+          <h2>Sản phẩm nổi bật</h2>
+          <div class="slider">
+            <div class="product-img">
+              <div class="product-info-img">
+                <a href="chitietsanpham.html"
+                  ><img src="/asset/trangchu/iPhone-16-Pro-Max-12.webp" alt=""
+                /></a>
+                <div class="product_name">
+                  <h3>Iphone 16 Pro Max</h3>
+                  <h3 class="price">20.500.000đ</h3>
+                </div>
+              </div>
+            </div>
+            <div class="product-img">
+              <div class="product-info-img">
+                <img src="/asset/trangchu/iphone_15_pro_max.webp" alt="" />
+                <div class="product_name">
+                  <h3>Iphone 15 Pro Max</h3>
+                  <h3 class="price">26.500.000đ</h3>
+                </div>
+              </div>
+            </div>
+            <div class="product-img">
+              <div class="product-info-img">
+                <img src="/asset/trangchu/iphone_14pro_max_vang.png" alt="" />
+                <div class="product_name">
+                  <h3>Iphone 14 Pro max</h3>
+                  <h3 class="price">23.690.000đ</h3>
+                </div>
+              </div>
+            </div>
+            <div class="product-img">
+              <div class="product-info-img">
+                <img src="/asset/trangchu/oppo_reno13.jpg" alt="" />
+                <div class="product_name">
+                  <h3>Oppo Reno 13 12GB 256GB</h3>
+                  <h3 class="price">15.990.000đ</h3>
+                </div>
+              </div>
+            </div>
+            <div class="product-img">
+              <div class="product-info-img">
+                <img src="/asset/trangchu/realme_c65.jpg" alt="" />
+                <div class="product_name">
+                  <h3>Realme C65 8GB 128GB</h3>
+                  <h3 class="price">3.690.000đ</h3>
+                </div>
+              </div>
+            </div>
+            <div class="product-img">
+              <div class="product-info-img">
+                <img src="/asset/trangchu/realme_c75_gold.jpg" alt="" />
+                <div class="product_name">
+                  <h3>Realme C75 8GB 128GB</h3>
+                  <h3 class="price">5.690.000đ</h3>
+                </div>
+              </div>
+            </div>
+            <div class="product-img">
+              <div class="product-info-img">
+                <img src="/asset/trangchu/samsung_s22_ultra.webp" alt="" />
+                <div class="product_name">
+                  <h3>Samsung S22 Ultra 12GB</h3>
+                  <h3 class="price">33.990.000đ</h3>
+                </div>
+              </div>
+            </div>
+            <div class="product-img">
+              <div class="product-info-img">
+                <img src="/asset/trangchu/samsung_s23_ultra.webp" alt="" />
+                <div class="product_name">
+                  <h3>Samsung S23 Ultra 8GB</h3>
+                  <h3 class="price">19.490.000đ</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="controller">
+            <button class="prev" onclick="prevslide()">&#10094;</button>
+            <button class="next" onclick="nextslide()">&#10095;</button>
+          </div>
+        </div>
+        <div class="slider_container-2">
+          <h2>Sản phẩm bán chạy</h2>
+          <div class="slider-2">
+            <div class="product-img-2">
+              <img src="/asset/trangchu/samsung_s24_ultra.jpg" alt="" />
+              <div class="product_name">
+                <h3>Samsung S24 Ultra 12GB</h3>
+                <h3 class="price">22.490.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-2">
+              <img src="/asset/trangchu/iphone_15_pro_max.webp" alt="" />
+              <div class="product_name">
+                <h3>Iphone 15 Pro Max</h3>
+                <h3 class="price">28.490.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-2">
+              <img src="/asset/trangchu/vivo_v29e.png" alt="" />
+              <div class="product_name">
+                <h3>Vivo V29</h3>
+                <h3 class="price">12.990.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-2">
+              <img src="/asset/trangchu/vivo_v40_5g.jpg" alt="" />
+              <div class="product_name">
+                <h3>Vivo V40 5G</h3>
+                <h3 class="price">12.990.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-2">
+              <img src="/asset/trangchu/xiaomi_redmi_14c_black.jpg" alt="" />
+              <div class="product_name">
+                <h3>Xiaomi Redmi 14C Black</h3>
+                <h3 class="price">3.390.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-2">
+              <img src="/asset/trangchu/iphone_14pro_max_vang.png" alt="" />
+              <div class="product_name">
+                <h3>Iphone 14 Pro Max</h3>
+                <h3 class="price">20.500.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-2">
+              <img src="/asset/trangchu/xiaomi_14t_2_.webp" alt="" />
+              <div class="product_name">
+                <h3>Xiaomi 14T 5G</h3>
+                <h3 class="price">12.990.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-2">
+              <img src="/asset/trangchu/oppo_reno13.jpg" alt="" />
+              <div class="product_name">
+                <h3>Oppo Reno 13F</h3>
+                <h3 class="price">15.990.000đ</h3>
+              </div>
+            </div>
+          </div>
+          <div class="controller-2">
+            <button class="prev-2" onclick="prevslide_2()">&#10094;</button>
+            <button class="next-2" onclick="nextslide_2()">&#10095;</button>
+          </div>
+        </div>
+
+        <div class="slider_container-3">
+          <h2>Đang Khuyến Mãi</h2>
+          <div class="slider-3">
+            <div class="product-img-3">
+              <img src="/asset/trangchu/samsung_s24_ultra.jpg" alt="" />
+              <div class="product_name">
+                <h3>Samsung S24 Ultra</h3>
+                <h3 class="price">22.490.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-3">
+              <img
+                src="/asset/trangchu/dien-thoai-samsung-galaxy-s25-ultra_2__3.webp"
+                alt=""
+              />
+              <div class="product_name">
+                <h3>Samsung S25 Ultra</h3>
+                <h3 class="price">29.990.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-3">
+              <img src="/asset/trangchu/dien_thoai_oppo_a18.png" alt="" />
+              <div class="product_name">
+                <h3>Oppo A18</h3>
+                <h3 class="price">2.990.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-3">
+              <img src="/asset/trangchu/sony_xperia_1_ii.jpg" alt="" />
+              <div class="product_name">
+                <h3>Sony Xperia 1</h3>
+                <h3 class="price">3.490.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-3">
+              <img src="/asset/trangchu/redmi_k70_pro.jpg" alt="" />
+              <div class="product_name">
+                <h3>Redmi K70 Pro</h3>
+                <h3 class="price">8.490.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-3">
+              <img
+                src="/asset/trangchu/xiaomi-redmi-note-14-green-thumbnew-600x600.jpg"
+                alt=""
+              />
+              <div class="product_name">
+                <h3>Redmi Xiaomi Note 14</h3>
+                <h3 class="price">4.050.000đ</h3>
+              </div>
+            </div>
+            <div class="product-img-3">
+              <img src="/asset/trangchu/iphone_14pro_max_vang.png" alt="" />
+              <div class="product_name">
+                <h3>Iphone 14 Pro Max</h3>
+                <h3 class="price">20.590.000đ</h3>
+              </div>
+            </div>
+          </div>
+          <div class="controller-3">
+            <button class="prev-3" onclick="prevslide_2()">&#10094;</button>
+            <button class="next-3" onclick="nextslide_2()">&#10095;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page__footer">
+      <div class="footer__info">
+        <p class="info__title">Tổng đài hỗ trợ</p>
+        <ul class="info__ul">
+          <li>
+            <p>Gọi mua: <span class="ul__phone">0123456</span></p>
+          </li>
+          <li>
+            <p>Bảo hành: <span class="ul__phone">0123456</span></p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__info">
+        <p class="info__title">Kết nối với chúng tôi</p>
+        <ul class="info__ul">
+          <li>
+            <a
+              class="info__link"
+              href="https://www.youtube.com/?app=desktop&hl=vi"
+            >
+              <img
+                class="info__icon"
+                src="./asset/trangchu/Social_youtube.png"
+                alt="Youtube"
+              />
+              youtube
+            </a>
+          </li>
+
+          <li>
+            <a class="info__link" href="https://www.facebook.com/">
+              <img
+                class="info__icon"
+                src="./asset/trangchu/Social_fb.png"
+                alt="FacebooK"
+              />
+              facebook
+            </a>
+          </li>
+          <li>
+            <a class="info__link" href="https://zalo.me/pc">
+              <img
+                class="info__icon"
+                src="./asset/trangchu/Social_zalo.png"
+                alt="Zalo"
+              />
+              zalo
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__info">
+        <p class="info__title">Về công ty</p>
+        <ul class="info__ul">
+          <li>
+            <a class="info__link" href="#">Giới thiệu công ty</a>
+          </li>
+          <li>
+            <a class="info__link" href="#">Tuyển dụng</a>
+          </li>
+          <li>
+            <a class="info__link" href="#">Gửi góp ý, thiếu nại</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__info">
+        <p class="info__title">Đăng ký nhận tin khuyến mãi</p>
+        <form action="/action_page.php">
+          <div>
+            <input
+              class="form__subscribe form__subscribe--email"
+              type="text"
+              name="email"
+              id="_email"
+              placeholder="Nhập Email"
+            />
+          </div>
+          <div>
+            <input
+              class="form__subscribe form__subscribe--email"
+              type="text"
+              name="numberPhone"
+              id="_numberPhone"
+              placeholder="Nhập số điện thoại"
+            />
+          </div>
+          <div>
+            <input
+              class="form__subscribe form__subscribe--submit"
+              type="submit"
+              value="Đăng ký ngay"
+            />
+          </div>
+        </form>
+      </div>
+
+      <div class="footer__info">
+        <a class="info__link" href="http://online.gov.vn/">
+          <img
+            class="info__image"
+            src="./asset/trangchu/logoSaleNoti.png"
+            alt="Bộ công thương"
+          />
+        </a>
+        <a class="info__link" href="https://www.dmca.com/">
+          <img
+            class="info__image"
+            src="./asset/trangchu/logo_DMCA.png"
+            alt="Bản quyền kĩ thuật số"
+          />
+        </a>
+      </div>
+    </footer>
+    <!-- Script can de hoat dong nut menu -->
+    <script src="trangchu.js"></script>
+  </body>
+</html>
