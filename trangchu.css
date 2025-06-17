@@ -23,10 +23,9 @@ html {
     grid-area: header-cell;
     position: sticky;
     top: 0;
-    background-color: #DCDCDC;
+    background-color: #0077b6;
     z-index: 1000;
 }
-
 
 .page__footer {
 
